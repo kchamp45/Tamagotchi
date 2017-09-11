@@ -97,3 +97,7 @@ export let tamatoy = {
   tamatoy.noonNap = tamatoy.sleep(10);
   tamatoy.snooze = tamatoy.sleep(15);
   tamatoy.hibernate = tamatoy.sleep(20);
+
+  setTimeout(function(){
+      alert("You forgot to feed your tamagotchi.  You're dead!");
+  }, 10001);
