@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title> Tamagotchi</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Your Tamagotchi Game</h1>
+      <p>Do you want a virtual pet?  Adopt a Tamagotchi.  Please be responsible before you decide to adopt one.  It requires your attention and love...constantly.</p>
+    </div>
+
+      <div class="container">
+
+        <h1>Your Tamagotchi:</h1>
+        <form id="feed-form">
+
+            <label for="feed">Amount your want to feed your tamagotchi:</label>
+            <select class="form-control" id="feed">
+              <option value="eatSmall">small</option>
+              <option value="eatMedium">medium</option>
+              <option value="eatLarge">large</option>
+            </select>
+            <button class="btn-danger" type="submit" name="btn">Feed</button>
+
+        </form>
+
+        <form id="play-form">
+          <label for="play">Choose a game to play with your tamagotchi:</label>
+          <select class="form-control" id="play">
+            <option value="playChess">chess</option>
+            <option value="playCatch">catch</option>
+            <option value="playRollover">rollover</option>
+          </select>
+          <button class="btn-success" type="submit" name="btn">Play</button>
+        </form>
+
+        <form id="sleep-form">
+          <label for="sleep">Choose how long you want to let your toy rest:</label>
+          <select class="form-control" id="sleep">
+            <option value="noonNap">nap</option>
+            <option value="snooze">snooze</option>
+            <option value="hibernate">hibernate</option>
+          </select>
+          <button class="btn-warning" type="submit" name="btn">Sleep</button>
+        </form>
+
+      <div id="result">
+        <p>Your Tamagotchi:
+          <ul>
+            <li>Food amount: <span id="amtOfFood"></span></li>
+            <li>Happiness level: <span id="game"></span></li>
+            <li>Rest level: <span id="rest"></span></li>
+          </ul>
+        </p>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
