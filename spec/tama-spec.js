@@ -59,8 +59,8 @@ beforeEach(function() {
   });
 
   it('should be happy if you play with it and the happy level should go up 10', function() {
-    expect(bobby.playChess("chess")).toEqual("You played chess with tamatoy.  Happiness level goes up 10!");
-    expect(bobby.happyLevel).toEqual(30);
+    expect(bobby.playChess("chess")).toEqual("You played chess with tamatoy.  Happiness level goes up 5!");
+    expect(bobby.happyLevel).toEqual(25);
   });
 
   it('should get very grouchy after 10 seconds without sleep', function() {

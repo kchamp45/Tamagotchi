@@ -3,5 +3,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
 }
+.colorWhite {
+  color: yellow;
+}
+
+/*.tamagotchi_box{
+  width: 75%;
+  height: 90%;
+  background: #6ea9b7;
+  text-align: center;
+  position:fixed;
+  border-radius: 54%/65% 65% 48% 48%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
