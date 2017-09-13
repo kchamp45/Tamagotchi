@@ -52,7 +52,7 @@ function newBackground(start){
   // let colors = ["black", "white"];
   now = now % backgrounds.length;
   $('body').css('background', backgrounds[now]);
-  $('body').addClass('colorWhite');
+  $('body').toggleClass('colorWhite');
   // document.body.style.color = 'white';
   // console.log("hi");
 }
